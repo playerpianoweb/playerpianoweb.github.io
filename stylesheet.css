@@ -6,7 +6,7 @@
 .keyboard {
    height: 7rem;
    width: 75vw;
-   margin: auto;
+   margin: auto auto;
 }
 
 button {
