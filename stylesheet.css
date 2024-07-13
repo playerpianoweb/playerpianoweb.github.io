@@ -18,8 +18,7 @@ button:hover {
    height: 5rem;
    background-color: black;
    border: 1px solid white;
-   transform: translateY(4rem);
-   transform: translateX(1rem);
+   transform: translate(4rem 1rem);
 }
 
 .black:hover {
