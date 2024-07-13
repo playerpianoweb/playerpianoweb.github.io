@@ -2,3 +2,8 @@ button {
    height: 7rem;
    width: 1rem;
 }
+
+.black {
+   width: .75rem;
+   background-color: black;
+}
