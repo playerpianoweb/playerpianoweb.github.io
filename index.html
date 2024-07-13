@@ -4,10 +4,8 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <audio id="myAudio">
-          <source src="C4.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
+    <audio id="noteC4mp3"><source src="C4.mp3" type="audio/mpeg"></audio>
+    <audio id="noteD4mp3"><source src="D4.mp3" type="audio/mpeg"></audio>
 <div class="keyboard">
     <button class="black" onclick=></button> &nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>&nbsp<button class="black"></button>&nbsp<button class="black"></button> &nbsp&nbsp&nbsp <button class="black"></button>
 
@@ -17,9 +15,13 @@
 </div>   
 </body>
 <script>
-    var note = document.getElementById("myAudio"); 
+    var noteC4 = document.getElementById("noteC4mp3"); 
     function C4() { 
-      note.play(); 
+      noteC4.play(); 
+    }
+     var noteD4 = document.getElementById("noteC4mp3"); 
+    function D4() { 
+      noteC4.play(); 
     } 
     
 </script>
