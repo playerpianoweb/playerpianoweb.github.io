@@ -57,14 +57,12 @@
 </script>
 <script>
     var noteC4 = document.getElementById("noteC4mp3"); 
-    var KeypressFunctions = [];
-    KeypressFunctions['h'.charCodeAt(72)] = function _keypressh() {
-      noteC4.play();
-    }
     
     function keyListener(event){ 
       event = event || window.event; //capture the event, and ensure we have an event
       var key = event.key || event.code; //find the key that was pressed
-      KeypressFunctions[key].call(); //if there's a defined function, run it, otherwise don't
+      if (key === 72) {
+          noteC4.play(); //if there's a defined function, run it, otherwise don't
+      } 
 </script>
 </html>
