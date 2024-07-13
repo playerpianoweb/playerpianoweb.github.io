@@ -22,7 +22,7 @@
 </body>
 <script>
     var noteC4 = document.getElementById("noteC4mp3"); 
-    function C4() { 
+    function C4() {
       noteC4.play(); 
     }
      var noteD4 = document.getElementById("noteD4mp3"); 
@@ -66,27 +66,30 @@
            noteC4.play();
         } else {
             noteC4.pause();
-        };
-        if (e.code || e.key === 72) {
+    }};
+    document.addEventListener('keydown', function(f) {
+        if (f.code || f.key === 72) {
            noteD4.play();
         } else {
              noteD4.pause();
-        };
-        if (e.code || e.key === 74) {
+    }};
+    document.addEventListener('keydown', function(g) {
+        if (g.code || g.key === 74) {
            noteE4.play();
         } else {
             noteE4.pause();
-        };
-        if (e.code || e.key === 75) {
+    }};
+    document.addEventListener('keydown', function(h) {
+        if (h.code || h.key === 75) {
            noteF4.play();
         } else {
             noteF4.pause();
-        };
-        if (e.code || e.key === 76) {
+    }};
+    document.addEventListener('keydown', function(i) {
+        if (i.code || i.key === 76) {
            noteG4.play();
         } else {
             noteG4.pause();
-        };
-    });
+    }};
 </script>
 </html>
