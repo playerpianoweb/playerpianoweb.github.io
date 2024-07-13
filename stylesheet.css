@@ -9,6 +9,10 @@ button {
    margin: 0;
 }
 
+button:hover {
+   background-color: red;
+}
+
 .black {
    width: .75rem;
    background-color: black;
@@ -16,5 +20,5 @@ button {
 }
 
 .black:hover {
-   background-color: #333;
+   background-color: blue;
 }
