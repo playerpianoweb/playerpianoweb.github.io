@@ -4,7 +4,7 @@
 }
 
 .keyboard {
-   margin: auto;
+   align-self: center;
 }
 
 button {
