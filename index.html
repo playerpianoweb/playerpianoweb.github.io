@@ -57,14 +57,14 @@
 </script>
 <script>
     var noteC4 = document.getElementById("noteC4mp3"); 
-    function keyListener(event){ 
-        //whatever we want to do goes in this block
-        event = event || window.event; //capture the event, and ensure we have an event
-        var key = event.key || event.code; //find the key that was pressed
-        //MDN is better at this: https://developer.mozilla.org/en-US/docs/DOM/event.which
-        if(key===72){ //this is for 'h'
-            noteC4.play();
-        }
+    var KeypressFunctions = [];
+    KeypressFunctions['h'.charCodeAt(0)] = function _keypressh() {
+      noteC4.play();
     }
+    
+    function keyListener(event){ 
+      event = event || window.event; //capture the event, and ensure we have an event
+      var key = event.key || event.code; //find the key that was pressed
+      KeypressFunctions[key].call(); //if there's a defined function, run it, otherwise don't
 </script>
 </html>
