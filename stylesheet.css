@@ -14,3 +14,7 @@ button {
    background-color: black;
    border: 1px solid white;
 }
+
+.black:hover {
+   background-color: 333;
+}
