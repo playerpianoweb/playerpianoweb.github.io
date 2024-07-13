@@ -3,6 +3,10 @@
    padding: 0;
 }
 
+.keyboard {
+   margin: auto;
+}
+
 button {
    height: 7rem;
    width: 1rem;
