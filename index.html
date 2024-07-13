@@ -2,17 +2,6 @@
 <html>
 <head>
     <link rel="stylesheet" href="stylesheet.css">
-    <script>
-        function keyListener(event){ 
-            //whatever we want to do goes in this block
-            event = event || window.event; //capture the event, and ensure we have an event
-            var key = event.key || event.code; //find the key that was pressed
-            //MDN is better at this: https://developer.mozilla.org/en-US/docs/DOM/event.which
-            if(key===72){ //this is for 'h'
-                noteC4.play();
-            }
-        }
-    </script>
 </head>
 <body>
     <audio id="noteC4mp3"><source src="C4.mp3" type="audio/mpeg"></audio>
@@ -65,5 +54,17 @@
       noteC5.play(); 
     } 
     
+</script>
+<script>
+    var noteC4 = document.getElementById("noteC4mp3"); 
+    function keyListener(event){ 
+        //whatever we want to do goes in this block
+        event = event || window.event; //capture the event, and ensure we have an event
+        var key = event.key || event.code; //find the key that was pressed
+        //MDN is better at this: https://developer.mozilla.org/en-US/docs/DOM/event.which
+        if(key===72){ //this is for 'h'
+            noteC4.play();
+        }
+    }
 </script>
 </html>
