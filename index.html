@@ -17,7 +17,7 @@
 
     <br>
 
-    <button class="white"></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button onclick="C4()" type="button"></button><button onclick="D4()" type="button"></button><button onclick="E4()" type="button"></button><button onclick="F4()" type="button"></button><button onclick="G4()" type="button"></button><button onclick="A4()" type="button"></button><button onclick="B4()" type="button"></button><button onclick="C5()" type="button"></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button>
+    <button class="white"></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button id="C4" onclick="C4()" type="button"></button><button onclick="D4()" type="button"></button><button onclick="E4()" type="button"></button><button onclick="F4()" type="button"></button><button onclick="G4()" type="button"></button><button onclick="A4()" type="button"></button><button onclick="B4()" type="button"></button><button onclick="C5()" type="button"></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button>
 </div>   
 </body>
 <script>
@@ -58,9 +58,36 @@
 <script>
     var noteC4 = document.getElementById("noteC4mp3"); 
     document.addEventListener('keydown', function(e) {
-    if (e.code || e.key == 72) {
+    if (e.code || e.key == 66) {
        noteC4.play();
+        document.getElementById("C4").style.backgroundColor = "red";
+    } else {
+        document.getElementById("C4").style.backgroundColor = "gainsboro";
     }
+
+    var noteD4 = document.getElementById("noteD4mp3"); 
+    document.addEventListener('keydown', function(e) {
+    if (e.code || e.key == 72) {
+       noteD4.play();
+    }
+
+    var noteE4 = document.getElementById("noteE4mp3"); 
+    document.addEventListener('keydown', function(e) {
+    if (e.code || e.key == 74) {
+       noteE4.play();
+    }
+
+    var noteF4 = document.getElementById("noteF4mp3"); 
+    document.addEventListener('keydown', function(e) {
+    if (e.code || e.key == 75) {
+       noteF4.play();
+    }
+
+    var noteG4 = document.getElementById("noteG4mp3"); 
+    document.addEventListener('keydown', function(e) {
+    if (e.code || e.key == 76) {
+       noteG4.play();
+    }   
 });
 </script>
 </html>
