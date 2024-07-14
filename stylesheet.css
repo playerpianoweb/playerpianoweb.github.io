@@ -33,7 +33,7 @@ button:hover {
 
 @media only screen and (max-width: 1200px) {
   .keyboard { 
-     width: 90vw;
+     zoom: 2;
   }
 
    button {
