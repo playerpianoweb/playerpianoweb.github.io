@@ -32,7 +32,7 @@ button:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-  .black {
-     transform: translateY(2rem);
+  .keyboard { 
+     width: 99vw;
   }
 }
