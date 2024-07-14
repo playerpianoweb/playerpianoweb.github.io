@@ -30,20 +30,3 @@ button:hover {
 .black:hover {
    background-color: blue;
 }
-
-@media only screen and (max-width: 1400px) {
-  .keyboard { 
-     zoom: 2.5;
-     width: 90vw;
-     padding: 3rem;
-     margin: 0;
-  }
-
-   button {
-      
-   }
-
-   .black {
-      
-   }
-}
