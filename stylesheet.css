@@ -22,10 +22,6 @@ button:hover {
    border-style: inset;
 }
 
-.shift {
-   transform: translateY(-5rem);
-}
-
 .black {
    width: .75rem;
    height: 5rem;
@@ -36,4 +32,8 @@ button:hover {
 
 .black:hover {
    background-color: blue;
+}
+
+.shift {
+   transform: translateY(-4.5rem);
 }
