@@ -33,6 +33,6 @@ button:hover {
 
 @media only screen and (max-width: 1200px) {
   .keyboard { 
-     width: 99vw;
+     width: 75vw;
   }
 }
