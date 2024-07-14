@@ -19,12 +19,11 @@ button {
 
 .DO {
    background-color: #fab256;
-   border: 1px solid #999;
 }
 
 button:hover {
-   background-color: red;
-   border-style: inset;
+   background: rgb(255,0,0);
+   background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(198,0,0,1) 67%, rgba(133,21,21,1) 100%);
 }
 
 label {
