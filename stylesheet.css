@@ -35,4 +35,12 @@ button:hover {
   .keyboard { 
      width: 90vw;
   }
+
+   button {
+      width: .75rem;
+   }
+
+   .black {
+      width: .5rem;
+   }
 }
