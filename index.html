@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=2000">
 </head>
 <body>
+    <audio id="noteC3mp3"><source src="C3.mp3" type="audio/mpeg"></audio>
+    <audio id="noteD3mp3"><source src="D3.mp3" type="audio/mpeg"></audio>
+    <audio id="noteE3mp3"><source src="E3.mp3" type="audio/mpeg"></audio>
+    <audio id="noteF3mp3"><source src="F3.mp3" type="audio/mpeg"></audio>
+    <audio id="noteG3mp3"><source src="G3.mp3" type="audio/mpeg"></audio>
+    <audio id="noteA3mp3"><source src="A3.mp3" type="audio/mpeg"></audio>
+    <audio id="noteB3mp3"><source src="B3.mp3" type="audio/mpeg"></audio>
     <audio id="noteC4mp3"><source src="C4.mp3" type="audio/mpeg"></audio>
     <audio id="noteD4mp3"><source src="D4.mp3" type="audio/mpeg"></audio>
     <audio id="noteE4mp3"><source src="E4.mp3" type="audio/mpeg"></audio>
@@ -18,10 +25,38 @@
 
     <br>
 
-    <button class="white"></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button class="shift" onclick="C4()" type="button">C4</button><button class="shift" onclick="D4()" type="button">D4</button><button class="shift" onclick="E4()" type="button">E4</button><button class="shift" onclick="F4()" type="button">F4</button><button class="shift" onclick="G4()" type="button">G4</button><button class="shift" onclick="A4()" type="button">A4</button><button class="shift" onclick="B4()" type="button">B4</button><button class="shift" onclick="C5()" type="button">C5</button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button>
+    <button class="white"></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button onclick="C3()" type="button"></button><button onclick="D3()" type="button"></button><button onclick="E3()" type="button"></button><button onclick="F3()" type="button"></button><button onclick="G3()" type="button"></button><button onclick="A3()" type="button"></button><button onclick="B3()" type="button"></button><button class="shift" onclick="C4()" type="button">C4</button><button class="shift" onclick="D4()" type="button">D4</button><button class="shift" onclick="E4()" type="button">E4</button><button class="shift" onclick="F4()" type="button">F4</button><button class="shift" onclick="G4()" type="button">G4</button><button class="shift" onclick="A4()" type="button">A4</button><button class="shift" onclick="B4()" type="button">B4</button><button class="shift" onclick="C5()" type="button">C5</button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button>
 </div>   
 </body>
 <script>
+    var noteC3 = document.getElementById("noteC3mp3"); 
+    function C3() {
+      noteC3.play(); 
+    }
+    var noteD3 = document.getElementById("noteD3mp3"); 
+    function D3() {
+      noteD3.play(); 
+    }
+    var noteE3 = document.getElementById("noteE3mp3"); 
+    function E3() {
+      noteE3.play(); 
+    }
+    var noteF3 = document.getElementById("noteF3mp3"); 
+    function F3() {
+      noteF3.play(); 
+    }
+    var noteG3 = document.getElementById("noteG3mp3"); 
+    function G3() {
+      noteG3.play(); 
+    }
+    var noteA3 = document.getElementById("noteA3mp3"); 
+    function A3() {
+      noteA3.play(); 
+    }
+    var noteB3 = document.getElementById("noteB3mp3"); 
+    function B3() {
+      noteB3.play(); 
+    }
     var noteC4 = document.getElementById("noteC4mp3"); 
     function C4() {
       noteC4.play(); 
