@@ -19,6 +19,7 @@ button {
 
 button:hover {
    background-color: red;
+   border-style: inset;
 }
 
 .black {
