@@ -29,7 +29,7 @@ button:hover {
 button:active {
    background-color: red;
    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(101,101,101,1) 100%);
-   border-style: inset;
+   border: 2px inset #555;
 }
 
 label {
