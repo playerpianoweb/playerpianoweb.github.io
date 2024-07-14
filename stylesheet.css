@@ -17,6 +17,11 @@ button {
    font-size: 5pt;
 }
 
+.DO {
+   background-color: #fab256;
+   border: none;
+}
+
 button:hover {
    background-color: red;
    border-style: inset;
@@ -42,6 +47,4 @@ label {
    background-color: blue;
 }
 
-.DO {
-   background-color: #fab256;
-}
+
