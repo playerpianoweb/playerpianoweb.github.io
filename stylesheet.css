@@ -33,7 +33,3 @@ button:hover {
 .black:hover {
    background-color: blue;
 }
-
-.shift {
-   transform: translateY(-3rem);
-}
