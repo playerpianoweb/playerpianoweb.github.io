@@ -27,7 +27,7 @@ button:hover {
 }
 
 button:active {
-   background-color: gainsboro;
+   background-color: red;
    background: linear-gradient(180deg, rgba(255,0,0,0) 0%, rgba(198,0,0,0) 67%, rgba(101,101,101,1) 100%);
    border-style: inset;
 }
