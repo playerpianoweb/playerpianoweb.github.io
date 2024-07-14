@@ -23,8 +23,9 @@ button:hover {
 }
 
 label {
-   
+   transform: translateX(32rem);
 }
+
 .black {
    width: .75rem;
    height: 5rem;
