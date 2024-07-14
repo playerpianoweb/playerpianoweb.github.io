@@ -19,8 +19,7 @@ button {
 
 .DO {
    background-color: #fab256;
-   border: 1px solid #444;
-   border-radius: 2px;
+   border: 1px solid #999;
 }
 
 button:hover {
