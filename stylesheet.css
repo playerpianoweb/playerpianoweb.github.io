@@ -19,7 +19,8 @@ button {
 
 .DO {
    background-color: #fab256;
-   border: none;
+   border: 1px solid gainsboro;
+   border-radius: 25%;
 }
 
 button:hover {
