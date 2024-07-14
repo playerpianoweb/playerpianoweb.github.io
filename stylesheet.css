@@ -22,6 +22,10 @@ button:hover {
    border-style: inset;
 }
 
+.shift {
+   transform: translateY(-5rem);
+}
+
 .black {
    width: .75rem;
    height: 5rem;
