@@ -33,6 +33,6 @@ button:hover {
 
 @media only screen and (max-width: 1200px) {
   .black {
-     transform: translateY(0, 7rem);
+     transform: translateY(2rem);
   }
 }
