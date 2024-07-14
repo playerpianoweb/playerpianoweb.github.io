@@ -22,6 +22,9 @@ button:hover {
    border-style: inset;
 }
 
+label {
+   margin: auto;
+}
 .black {
    width: .75rem;
    height: 5rem;
