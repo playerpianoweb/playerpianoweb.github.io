@@ -4,9 +4,10 @@
 }
 
 .keyboard {
+   zoom: 2.5;
    height: 7rem;
    width: 68vw;
-   margin: 10rem auto;
+   margin: 0
 }
 
 button {
