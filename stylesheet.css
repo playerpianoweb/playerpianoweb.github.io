@@ -57,3 +57,9 @@ label {
         zoom: 8;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .keyboard {
+        zoom: 2.5;
+    }
+}
