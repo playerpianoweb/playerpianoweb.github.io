@@ -54,6 +54,6 @@ label {
 
 @media screen and (min-width: 480px) {
     .keyboard {
-        zoom: 4;
+        zoom: 8;
     }
 }
