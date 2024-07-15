@@ -4,7 +4,7 @@
 }
 
 .keyboard {
-   zoom: 2.5;
+   zoom: 4;
    height: 7rem;
    width: 100vw;
    margin: 0
@@ -50,12 +50,6 @@ label {
 
 .black:hover {
    background-color: blue;
-}
-
-@media screen and (min-width: 480px) {
-    .keyboard {
-        zoom: 8;
-    }
 }
 
 @media screen and (min-width: 1000px) {
