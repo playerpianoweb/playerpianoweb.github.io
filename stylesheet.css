@@ -5,6 +5,7 @@
 }
 
 .keyboard {
+   display: inline-block
    zoom: 8;
    height: 7rem;
    width: 100vw;
