@@ -5,8 +5,8 @@
 }
 
 .keyboard {
-   display: inline-block
-   zoom: 4;
+   display: inline-block;
+   zoom: 8;
    height: 7rem;
    width: 100vw;
    margin: 0
@@ -56,7 +56,7 @@ label {
 
 @media screen and (min-width: 1000px) {
     .keyboard {
-        zoom: 2.5;
+        zoom: 4;
     }
 }
 
