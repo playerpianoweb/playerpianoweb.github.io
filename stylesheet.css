@@ -4,6 +4,10 @@
    white-space: nowrap;
 }
 
+body {
+   text-align: center;
+}
+
 .keyboard {
    display: block;
    height: 7rem;
@@ -16,7 +20,7 @@ button {
    width: 1rem;
    margin: 0;
    font-size: 5pt;
-   border: 0.5px solid #AAA
+   border: 0.5px solid #AAA;
 }
 
 .DO {
@@ -24,11 +28,11 @@ button {
 }
 
 button:hover {
-   background-color: red;
+   background-color: #AAA;
 }
 
 button:active {
-   background-color: red;
+   background-color: #555;
    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(101,101,101,1) 100%);
    border: 2px inset #555;
 }
@@ -51,6 +55,10 @@ label {
 
 .black:hover {
    background-color: blue;
+}
+
+#keyC4 {
+   background-color: #FF0000;
 }
 
 @media screen and (min-width: 1000px) {
