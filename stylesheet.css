@@ -60,6 +60,27 @@ label {
 #keyC4 {
    background-color: #FF0000;
 }
+#keyD4 {
+   background-color: #FF5500;
+}
+#keyE4 {
+   background-color: #FFFF00;
+}
+#keyF4 {
+   background-color: #00FF00;
+}
+#keyG4 {
+   background-color: #0000FF;
+}
+#keyA4 {
+   background-color: #FF00FF;
+}
+#keyB4 {
+   background-color: #550055;
+}
+#keyC5 {
+   background-color: #FF2222;
+}
 
 @media screen and (min-width: 1000px) {
     .blackKeys {
