@@ -57,6 +57,29 @@ label {
    background-color: blue;
 }
 
+#keyC3 {
+   background-color: #CC0000;
+}
+#keyD3 {
+   background-color: #CC3300;
+}
+#keyE3 {
+   background-color: #CCCC00;
+}
+#keyF3 {
+   background-color: #00CC00;
+}
+#keyG3 {
+   background-color: #0000CC;
+}
+#keyA3 {
+   background-color: #330033;
+}
+#keyB3 {
+   background-color: #CC00CC;
+}
+
+
 #keyC4 {
    background-color: #FF0000;
 }
