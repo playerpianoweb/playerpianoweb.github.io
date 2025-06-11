@@ -78,8 +78,31 @@ label {
 #keyB4 {
    background-color: #FF00FF;
 }
+
 #keyC5 {
    background-color: #FF6666;
+}
+#keyD5 {
+   background-color: #FFaa00;
+}
+#keyE5 {
+   background-color: #FFFF55;
+}
+#keyF5 {
+   background-color: #33FF33;
+}
+#keyG5 {
+   background-color: #3333FF;
+}
+#keyA5 {
+   background-color: #550055;
+}
+#keyB5 {
+   background-color: #FF33FF;
+}
+
+#keyC6 {
+   background-color: #FFAAAA;
 }
 
 @media screen and (min-width: 1000px) {
