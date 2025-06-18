@@ -65,7 +65,7 @@ label {
 #keyA2 {
    background-color: #220022;
 }
-#B2 {
+#keyB2 {
    background-color: #990099;
 }
    
@@ -140,9 +140,31 @@ label {
 
 
 
-
 #keyC6 {
    background-color: #FFAAAA;
+}
+#keyD6 {
+   background-color: #FFCC00;
+}
+#keyE6 {
+   backgound-color: #FFFF99;
+}
+#keyF6 {
+   background-color: #55FF55;
+}
+#keyG6 {
+   background-color: #5555FF;
+}
+#keyA6 {
+   background-color: #990099;
+}
+#keyB6 {
+   background-color: #FF55FF;
+}
+
+
+#keyC7 {
+   background-color: #FFCCCC;
 }
 
 
