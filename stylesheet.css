@@ -27,16 +27,6 @@ button {
    background-color: #fab256;
 }
 
-button:hover {
-   background-color: #AAA;
-}
-
-button:active {
-   background-color: #555;
-   background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(101,101,101,1) 100%);
-   border: 2px inset #555;
-}
-
 label {
    height: 1rem;
    width: 10rem;
@@ -102,6 +92,8 @@ label {
    background-color: #FF00FF;
 }
 
+
+
 #keyC5 {
    background-color: #FF6666;
 }
@@ -124,10 +116,25 @@ label {
    background-color: #FF33FF;
 }
 
+
+
+
 #keyC6 {
    background-color: #FFAAAA;
 }
 
+
+
+
+button:hover {
+   background-color: #AAA;
+}
+
+button:active {
+   background-color: #555;
+   background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(101,101,101,1) 100%);
+   border: 2px inset #555;
+}
 @media screen and (min-width: 1000px) {
     .blackKeys {
        transform:translateX(-13px);
