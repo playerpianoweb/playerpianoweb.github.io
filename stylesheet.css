@@ -24,6 +24,7 @@ button {
    font-size: 5pt;
    border: 0.5px solid #000;
    touch-action: none;
+   -webkit-tap-highlight-color: transparent;
 }
 
 .DO {
