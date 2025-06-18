@@ -6,6 +6,7 @@
 
 body {
    text-align: center;
+   touch-action: pan-x;
 }
 
 .keyboard {
@@ -21,6 +22,7 @@ button {
    margin: 0;
    font-size: 5pt;
    border: 0.5px solid #000;
+   touch-action: none;
 }
 
 .DO {
