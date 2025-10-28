@@ -11,8 +11,8 @@ body {
 
 .keyboard {
    display: block;
-   height: 7rem;
-   width: 100vw;
+   height: 50vh;
+   width: 800vw;
    margin: auto;
    touch-action: manipulation;
    -webkit-touch-callout: none;
