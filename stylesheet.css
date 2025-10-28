@@ -12,6 +12,8 @@ body {
 .header {
    font-family: sans-serif;
    width: 100vw;
+   height: 4rem;
+   font-size:48pt;
    margin: auto;
    text-align: center;
 }
