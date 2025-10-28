@@ -43,11 +43,11 @@ label {
 }
 
 .black {
-   width: .76rem;
+   width: .70rem;
    height: 5rem;
    background-color: black;
    border: 1px solid white;
-   transform: translate(.5rem, 5rem);
+   transform: translate(.2rem, 5rem);
 }
 
 .black:hover {
