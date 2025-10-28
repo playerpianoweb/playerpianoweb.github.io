@@ -47,7 +47,7 @@ label {
    height: 5rem;
    background-color: black;
    border: 1px solid white;
-   transform: translate(.2rem, 5rem);
+   transform: translate(.4rem, 5rem);
 }
 
 .black:hover {
