@@ -9,6 +9,13 @@ body {
    touch-action: pinch-zoom;
 }
 
+.header {
+   font-family: sans-serif;
+   width: 100vw;
+   margin: auto;
+   text-align: center;
+}
+
 .keyboard {
    display: block;
    height: 100vh;
